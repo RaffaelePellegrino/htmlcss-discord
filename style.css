@@ -321,6 +321,15 @@ button{
     background-color: white;
     color: rgb(34, 38, 41);
 }
+
+.button-hero2{
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color: rgb(34, 38, 41);
+    color: white;
+}
+
 .padding-item-right{           /*logo scarica*/
     padding-right: 5px;
 }
@@ -333,4 +342,21 @@ button{
     border-radius: 30px;
     background-color: rgb(113, 135, 217);
     color: rgb(255, 255, 255);
+}
+
+
+/* ultime implementazioni bonus (hover/smooth) */
+
+a:hover{
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wave{
+    width: 100%;
+    height: 100px;
+    background-image: url(img/wave.svg);
 }
