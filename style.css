@@ -344,7 +344,19 @@ button{
     color: rgb(255, 255, 255);
 }
 
+.contenitore-footer-interno h3{
+    font-size: 30px;
+}
 
+.icone-social{
+    display: flex;
+    padding-top: 30px;
+}
+.icone-social-class{
+    font-size: 30px;
+    color: rgb(221, 224, 213);
+    padding-right: 20px;
+}
 /* ultime implementazioni bonus (hover/smooth) */
 
 a:hover{
