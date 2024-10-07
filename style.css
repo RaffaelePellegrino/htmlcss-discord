@@ -152,8 +152,8 @@ button{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
 }
 
 .main-contenitore-interno{
@@ -358,5 +358,14 @@ html {
 .wave{
     width: 100%;
     height: 100px;
-    background-image: url(img/wave.svg);
+}
+.wave img{
+    width: 100%;
+    height: 100%;
+    filter: invert(34%) brightness(284%);
+
+}
+
+.wave-reverse{
+    transform: rotate(180deg);
 }
