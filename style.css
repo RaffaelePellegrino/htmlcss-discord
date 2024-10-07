@@ -10,17 +10,33 @@
 /* global */
 
 body{
-    font-family: arial;
+    font-family:'Whitney', sans-serif;;
+}
+h1 {
+    font-family: 'Whitney Semibold', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Whitney Semibold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
     line-height: 1;
 }
 
+p {
+    font-family: 'Whitney Light', sans-serif;
+    font-size: 18px;
+}
 img{
     max-width: 100%;
 }
-h2{
+/* h2{
     font-size: 40px;
 
-}
+} */
 a {
     text-decoration: none;
 }
@@ -100,14 +116,13 @@ button{
 }
 .contenitore-primario p{
     color: white;
-    padding: 0;
-    font-size: 18px;
+    padding-bottom:  20px;
 }
 .contenitore-primario h1{
     align-self: center;
     color: white;
     padding: 40px;
-    font-size: 36px;
+    /* font-size: 36px; */
 }
 
 .contenitore-bottoni-hero{
@@ -147,11 +162,13 @@ button{
     width: 1200px;
     align-items: flex-start;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.text-align-right{ /*lo utilizziamo per il riquadro reverse */
+    text-align: right;
+}
 .main-contenitore-interno-colonna{  /*fare la section in colonna*/
     display: flex;
     max-width: 1200px;
@@ -166,10 +183,12 @@ button{
 .contenitore-main-testo{
     display: flex;
     align-items: center; 
-    max-width: 40%;
+    max-width: 24%;
     justify-content: center;
 }
-
+.contenitore-main-testo p{
+    padding-top: 40px;
+}
 .contenitore-main-immagine{
     display: flex;
     justify-content: center;
@@ -177,9 +196,8 @@ button{
     max-width: 60%;
 }
 
-.contenitore-main-testo h1, p{
+.contenitore-main-testo  p{
     align-self: center;
-    padding: 20px;
     color: black;
 }
 .contenitore-bottoni-main{
@@ -196,8 +214,12 @@ button{
 .contenitore-main-testo-speciale{
     display: flex;
     align-items: center; 
-    max-width: 60%;
+    max-width: 65%;
     justify-content: center;
+}
+
+.contenitore-main-testo-speciale p{
+    padding-top: 40px;
 }
 .contenitore-main-immagine-speciale img{
     width: 100%;
@@ -207,10 +229,10 @@ button{
 .sfondo-stellare{
     background-image: url(img/stars.svg);
     background-repeat: no-repeat;
-    width: 550px;
-    padding: 20px;
-    background-size: cover;
+    width: 450px;
+    padding: 40px;
     font-size: 30px;
+    /* font-size: 30px; */
 }
 /* Footer */
 .contenitore-footer-esterno{
@@ -237,7 +259,7 @@ button{
 .contenitore-footer-interno h3{
     padding-top: 0px;
     color: rgb(114, 137, 214);
-    font-size: 23px;
+    /* font-size: 23px; */
 }
 .contenitore-footer-interno li{
     list-style: none;
